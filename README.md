@@ -15,7 +15,7 @@ I have used CSS Grid with flexbox as well as JavaScript for functionalities.
 
 ## Launch
 
-You can visit the website by going [here](customhaven.github.io/portfolio/).
+You can visit the website by going [here](https://customhaven.github.io/portfolio/).
 
 ## Status
 
