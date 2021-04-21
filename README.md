@@ -11,7 +11,7 @@ I have used CSS Grid with flexbox as well as JavaScript for functionalities.
 - HTML5 - Div - sections
 - CSS3 - CSS Grid, Flexbox
 - [Font Awesome](https://fontawesome.com/)
-- JavaScript - Vanilla JS, DOM
+- JavaScript - Vanilla JS, DOM - Intersection Observer, Event Listeners
 
 ## Launch
 
