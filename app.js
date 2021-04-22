@@ -23,7 +23,7 @@ inputToggle.onclick = function() {
 
 const appearOptions = {
     // root: null,
-    rootMargin: "0px 0px -100px 0px",
+    rootMargin: "0px 0px -250px 0px",
     threshold: 0
 }
 
@@ -51,32 +51,3 @@ faders.forEach(fader => {
 sliders.forEach(slider => {
     appearOnScroll.observe(slider)
 });
-
-// skillsObserver.observe(skillsContainer);
-
-
-// delete everything below here
-
-// const mainContentScroll = document.querySelector(".js-main-content");
-
-// mainContentScroll.style.opacity = 0;
-
-// let rect = mainContentScroll.getBoundingClientRect().top;
-
-// console.log(document.documentElement.clientHeight);
-// console.log(window.innerHeight);
-
-// const elementInView = (mainContentScroll, scrollOffset = 0) => {
-    // const elementTop = mainContentScroll.getBoundingClientRect().top;
-   
-    // console.log(elementTop <= ((window.innerHeight || document.documentElement.clientHeight) - scrollOffset));
-
-// };
-
-// const elementInView = (mainContentScroll, percentageScroll = 100) => {
-//     const elementTop = mainContentScroll.getBoundingClientRect().top;
-   
-
-//       console.log(elementTop <= ((window.innerHeight || document.documentElement.clientHeight) * (percentageScroll/100)));
-
-//   };
