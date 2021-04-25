@@ -573,3 +573,81 @@ footer {
     left: 45%;
   }
 }
+
+/* --------------------------CONTACT ME PAGE --------------------------- */
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 1fr 0.6fr 0.3fr 0.1fr;
+  grid-template-areas:
+    "contact-header"
+    "about-me"
+    "projects"
+    "skills"
+    "about-footer";
+}
+
+.contact-header {
+  /* background-color: bisque; */
+  grid-area: contact-header;
+}
+
+.about-me {
+  /* background-color: chartreuse; */
+  grid-area: about-me;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(0.5fr 1fr);
+  grid-template-areas: "about-content about-img";
+  grid-gap: 50px;
+}
+
+.about-content {
+  grid-area: about-content;
+  margin: 0 5%;
+}
+
+.about-me img {
+  grid-area: about-img;
+  margin: 5%;
+  overflow: hidden;
+  max-width: 100%;
+  height: 900px;
+}
+
+.projects {
+  /* background-color: crimson; */
+  grid-area: projects;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: flex-start;
+}
+
+.projects li {
+  margin: 0 15% 5%;
+}
+
+.skills {
+  /* background-color: darkgreen; */
+  grid-area: skills;
+}
+
+.about-footer {
+  /* background-color: darkred; */
+  grid-area: about-footer;
+}
+
+@media only screen and (max-width: 1380px) {
+  .about-me {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "about-content"
+      "about-img";
+    grid-gap: 0;
+  }
+}
