@@ -37,7 +37,6 @@ const appearOnScroll = new IntersectionObserver((entries, appearOnScroll) => {
             entry.target.classList.toggle("appear");
             appearOnScroll.unobserve(entry.target);
         }
-        // console.log(entry.target);
         
         
     })

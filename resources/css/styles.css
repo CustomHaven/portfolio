@@ -524,7 +524,7 @@ nav span {
 
 /* footer */
 footer {
-  /* background-color: violet; */
+  /* background-color: red; */
   grid-area: footer;
   display: flex;
   flex-wrap: wrap;
