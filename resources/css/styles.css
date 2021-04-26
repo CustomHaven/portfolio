@@ -1,3 +1,6 @@
+rect[fill] {
+  fill: transparent;
+}
 /* Style for JavaScript Animations */
 
 .fade-in {
@@ -72,6 +75,10 @@ a {
 }
 .far {
   color: #868e96;
+}
+
+.fa-envelope:hover {
+  color: #2196f3;
 }
 
 .grid-container {
@@ -217,6 +224,7 @@ nav span {
 }
 .main .hello-svg,
 .section .skills-svg {
+  background-color: transparent;
   margin: 0 5% 5%;
 }
 
